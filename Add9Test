@@ -1,0 +1,21 @@
+restart
+
+add_force a 000001001
+add_force b 000000110
+add_force cin 0
+run 10 ns
+
+add_force a 111111110
+add_force b 000000001
+add_force cin 1
+run 10 ns
+
+add_force a 110100011
+add_force b 100101100
+add_force cin 0
+run 10 ns
+
+add_force a 000011001
+add_force b 000000100
+add_force cin 0
+run 10 ns
