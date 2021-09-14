@@ -1,0 +1,4 @@
+restart
+
+add_force sw 0000000100000001
+run 10 ns
